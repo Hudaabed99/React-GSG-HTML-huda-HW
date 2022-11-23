@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="max-width: 650px; margin:auto">
+        <h1>Basic HTML Form</h1>
+        <fieldset style="max-width:600px ; margin: auto; ">
+            <legend>Name</legend>
+            <div> 
+                <div>
+                    <label>First name</label>
+                </div>
+                <input type="text" name="name" readonly>
+            <div> 
+                <div> 
+                    <br>
+                <div>
+                    <label>last name</label>
+                </div>
+                    <input type="text" name="name"  readonly>
+                <div> 
+                    <br>
+        </fieldset>
+        <fieldset style="max-width:600px ; margin: auto; " >
+            <legend>Other Question</legend>
+            <br>
+            Choosse adrink:
+            <div>
+                <input  id="co" type="radio" name="drink" value="coffee" checked>
+                <label for="co">coffee</label>
+            </div>
+            <div>
+                <input  id="te" type="radio" name="drink" value="tea">
+                <label for="te">tea</label>
+            </div>
+            <div>
+                <input id="ho" type="radio" name="drink" value="hot chocolate">
+                <label for="ho">hot chocolate</label>
+            </div>
+            <br>
+            What ice cream do ypu like?
+            <div>
+                <input  id="ch" type="checkbox" name="ice" value="chocolate">
+                <label for="ch">chocolate</label>
+            </div>
+            <div>
+                <input  id="bu" type="checkbox" name="ice" value="chocolate budding">
+                <label for="bu">chocolate budding</label>
+            </div>
+            <div>
+                <input  id="tt" type="checkbox" name="ice" value="chocolate Butter">
+                <label for="tt">chocolate Butter</label>
+            </div>
+            <div>
+                <input  id="va" type="checkbox" name="ice" value="vanilla">
+                <label for="va">vanilla</label>
+            </div>
+            <div>
+                <input  id="st" type="checkbox" name="ice" value="strawberry">
+                <label for="st">strawberry</label>
+            </div>
+            <br>
+            <div>
+                <label>
+                <b>Select a school</b>
+                <br />
+                <select name="school">
+                    <option value="palestine">University of palestine</option>
+                    <option value="AUG">AUG</option>
+                    <option value="AZhar">Azhar</option>
+                </select>
+                </label>
+            </div>
+            <p>Please provide comments:</p>
+            <textarea name="subject" cols="45" rows="8"></textarea>
+        </fieldset>
+        <input type="submit" value="submit" style="margin-top: 20px;">
+    </fieldset>
+</body>
+</html>
